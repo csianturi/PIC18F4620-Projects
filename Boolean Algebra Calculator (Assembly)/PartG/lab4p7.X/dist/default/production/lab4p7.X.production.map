@@ -1,0 +1,102 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep 29 17:48:35 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00015c
+                   .cinit    romdata   0x00015c    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/LAB4PG.    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/LAB4PG.    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/LAB4PG.    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/LAB4PG.    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00015d      
+                            0x300001    0x300003      
+                            0x300006    0x300006      
+            354 out of 66584 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  CONVERT   0x00013e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE1   0x0000ac    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE2   0x0000d6    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE3   0x000100    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE4   0x00012a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE5   0x00015a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                   FINISH   0x000144    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                MAIN_LOOP   0x000018    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              PORTD21EQ00   0x00003a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              PORTD21EQ01   0x000030    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                PORTD2EQ0   0x000026    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                PORTD2EQ1   0x000022    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    START   0x000000    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+           SUBROUTINE_ADD   0x0000ae    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+           SUBROUTINE_BCD   0x00012c    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+          SUBROUTINE_COMP   0x00008a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+            SUBROUTINE_OR   0x0000d8    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+           SUBROUTINE_XOR   0x000102    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                 TASK_ADD   0x000052    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                 TASK_BCD   0x00007c    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                TASK_COMP   0x000044    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                  TASK_OR   0x000060    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                 TASK_XOR   0x00006e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK1   0x0000a0    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK2   0x0000ca    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK3   0x0000f4    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK4   0x00011e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK5   0x00014e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET1   0x0000a6    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET2   0x0000d0    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET3   0x0000fa    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET4   0x000124    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET5   0x000154    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000000    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                MAIN_LOOP   0x000018    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                PORTD2EQ1   0x000022    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                PORTD2EQ0   0x000026    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              PORTD21EQ01   0x000030    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              PORTD21EQ00   0x00003a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                TASK_COMP   0x000044    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                 TASK_ADD   0x000052    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                  TASK_OR   0x000060    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                 TASK_XOR   0x00006e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                 TASK_BCD   0x00007c    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+          SUBROUTINE_COMP   0x00008a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK1   0x0000a0    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET1   0x0000a6    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE1   0x0000ac    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+           SUBROUTINE_ADD   0x0000ae    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK2   0x0000ca    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET2   0x0000d0    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE2   0x0000d6    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+            SUBROUTINE_OR   0x0000d8    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK3   0x0000f4    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET3   0x0000fa    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE3   0x000100    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+           SUBROUTINE_XOR   0x000102    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK4   0x00011e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET4   0x000124    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE4   0x00012a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+           SUBROUTINE_BCD   0x00012c    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                  CONVERT   0x00013e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                   FINISH   0x000144    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_CHECK5   0x00014e    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+              ZERO_RESET5   0x000154    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+                    DONE5   0x00015a    program     static C:\Users\fatso\OneDrive\Desktop\ECE\ECE3301L\Lab4\PartG\lab4p7.X\lab4pG.asm
+
+
